@@ -1,0 +1,26 @@
+{
+  "name": "tool-fn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "npm run lint",
+    "lint": "eslint src",
+    "fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unjust-life/Tool-Fn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unjust-life/Tool-Fn/issues"
+  },
+  "homepage": "https://github.com/unjust-life/Tool-Fn#readme",
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "husky": "^3.0.4"
+  }
+}
