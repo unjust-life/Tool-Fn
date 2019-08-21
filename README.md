@@ -22,13 +22,13 @@
 #首先点击仓库右上角的Fork  在自己的账号下克隆一个仓库 然后打开终端输入命令 克隆你Fork的仓库
 $ git clone https://github.com/这里填你的仓库地址
 
-#克隆到本地后安装依赖
+#克隆到本地后安装依赖(请确保你的电脑已经安装node)
 $ npm install
 
 #接下来你就可以给仓库贡献代码啦 例如你想提交一个十分好用的clone方法用于深拷贝对象
 
 #首先在src/modules文件下新建一个文件夹 (英文驼峰格式)
-$ cd src/modules      #进入modules目录  新建一个clone文件夹
+$ cd src/utils        #进入utils目录    新建一个clone文件夹
 $ cd clone            #进入clone文件夹  新建clone.js文件  开始编写你的代码吧(请使用es6模块语法导出)
 
 #写完代码觉得没问题了 请执行检查命令(如果检查不通过直接进行commit 将会被阻止)
