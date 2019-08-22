@@ -130,6 +130,10 @@ subject 改动内容 结尾禁止加标点符号
 -clone(data)    #data 原对象
 深拷贝一个对象或数组  返回值拷贝后的结果
 
+-curring
+函数柯里化 将多变量函数拆解为单变量的多个函数的依次调用，可以从高元函数动态地生成批量的低元的函数。
+一个强大的函数工厂。
+
 -imgLoader(url, callback)       #url 图片地址   #callback 回调函数
 预加载一个图片，等待加载完成后执行回调函数
 
@@ -141,10 +145,13 @@ debounce(fn, delay)     #fn 回调函数    #delay 间隔时间
 
 ```
 
-### PolyFill列表
+### PolyFill列表(函数的原生js实现)
 
 ``` bash
 
+-bind
+
 -forEach
+
 
 ```
