@@ -134,14 +134,17 @@ subject 改动内容 结尾禁止加标点符号
 函数柯里化 将多变量函数拆解为单变量的多个函数的依次调用，可以从高元函数动态地生成批量的低元的函数。
 一个强大的函数工厂。
 
--imgLoader(url, callback)       #url 图片地址   #callback 回调函数
+-imgLoader(url, callback)   #url 图片地址   #callback 回调函数
 预加载一个图片，等待加载完成后执行回调函数
 
--throttle(fn, delay)    #fn 回调函数    #delay 间隔时间
+-throttle(fn, delay)   #fn 回调函数   #delay 间隔时间
 节流函数 如果一个动作持续触发，那么让它在一定的时间间隔后才能再触发。例如每过10秒才能发送一次验证码。
 
-debounce(fn, delay)     #fn 回调函数    #delay 间隔时间
+debounce(fn, delay)   #fn 回调函数   #delay 间隔时间
 消抖函数 如果一个动作频繁触发，那么只在动作停止一段时间后才触发一次。例如百度实时展现搜索结果。
+
+textBreakReplace(content)
+替换文本中的换行符  解决换行符在通过json格式传输的时候会出错的问题
 
 ```
 
